@@ -9,9 +9,12 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/starter-template/">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="js/sortable.min.js"></script>
 
     <!-- Bootstrap core CSS -->
   <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+
 
     <style>
       .bd-placeholder-img {
@@ -31,6 +34,7 @@
     </style>
     <!-- Custom styles for this template -->
     <link href="css/starter-template.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/sortable-theme-bootstrap.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
@@ -49,7 +53,7 @@
 </nav>
 
 <main role="main" class="container">
-    <table class="table">
+    <table class="sortable-theme-bootstrap" data-sortable>
         <thead>
           <tr>
             <th scope="col">Title</th>
@@ -103,6 +107,7 @@
           </tr>
          </tbody>
       </table>
+    </br>
       <h6 id="B">Add Books:</h6>
       <form class="needs-validation" novalidate>
         <div class="form-row">
