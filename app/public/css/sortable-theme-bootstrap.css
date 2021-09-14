@@ -37,7 +37,6 @@ table[data-sortable] th:after {
   border-color: transparent;
   margin-right: 1px;
   margin-left: 10px;
-  float: right;
 }
 /* line 40, ../sass/_sortable.sass */
 table[data-sortable] th[data-sorted="true"]:after {
