@@ -57,3 +57,15 @@ a:active {
 #B{
    text-decoration: underline;
 }
+
+#C{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+div.center{
+  align-content: center;
+  text-align: center;
+}
